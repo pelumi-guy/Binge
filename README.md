@@ -7,7 +7,7 @@
 ## 🚀 Project Overview
 Binge is an innovative streaming service designed to simplify entertainment by integrating a massive library of movies, TV shows, and originals into a single platform. It addresses the challenges of juggling multiple streaming services and endless scrolling by offering a streamlined browsing and watching experience. With Binge, users gain the power of entertainment curation in one convenient and user-friendly app.
 
-## 📷 Demo
+## 🎥 Demo
 [![Decagon SQ18 C# Dotnet Managed Internship Demo](https://img.youtube.com/vi/J37xA8lo2fo/0.jpg)](https://www.youtube.com/watch?v=J37xA8lo2fo)
 
 ## 💭 Problem Statement
