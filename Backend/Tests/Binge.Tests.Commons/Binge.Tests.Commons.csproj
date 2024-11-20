@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoFixture" Version="4.18.1" />
+		<PackageReference Include="AutoFixture.AutoMoq" Version="4.18.1" />
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="MediatR" Version="12.2.0" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.TestHost" Version="8.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="WireMock.Net" Version="1.5.47" />
+		<PackageReference Include="xunit.extensibility.core" Version="2.6.6" />
+
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Binge\Binge.Api\Binge.Api.csproj" />
+	  <ProjectReference Include="..\..\Binge\Binge.Domain\Binge.Domain.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="xunit.core">
+	    <HintPath>..\..\..\..\..\.nuget\packages\xunit.extensibility.core\2.4.2\lib\netstandard1.1\xunit.core.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+</Project>

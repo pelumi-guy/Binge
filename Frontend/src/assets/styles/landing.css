@@ -1,0 +1,297 @@
+.home {
+  background: rgba(0, 0, 0, 1);
+  /* border: 2px solid yellow */
+}
+
+.static {
+  background-image: linear-gradient(
+      rgba(5, 14, 20, 0.614),
+      rgba(5, 14, 20, 0.614)
+    ),
+    url(../images/landing/BCG.svg);
+  background-size: cover;
+  /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.welcome {
+  display: inline-block;
+  /* border: 1px solid red; */
+  width: 45%;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.welcome h1 {
+  color: rgba(255, 255, 255, 1);
+
+  height: 59px;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+}
+.cap {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue;  */
+}
+
+.join {
+  background: rgba(155, 81, 224, 1);
+  /* width:493px; */
+
+  height: Hug(72px);
+  /* padding: 22px, 142px, 22px, 142px; */
+  border-radius: 10px;
+  /* gap: 10px; */
+  color: rgba(255, 255, 255, 1);
+}
+.free-trial {
+  border: 1px solid rgba(155, 81, 224, 1);
+  border-radius: 10px;
+  background: rgba(155, 81, 224, 0);
+  color: white;
+  margin-top: 10px;
+  /* width: 492px; */
+  height: Hug(72px);
+  /* padding: 22px, 165px, 22px, 165px; */
+}
+.free-trial:hover {
+  background: rgba(155, 81, 224, 1);
+}
+
+/* .favourites {
+  text-align: center;
+    color: white;
+    margin-top: 30px;
+  border: 1px solid blue;
+} */
+
+.favourite-1 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+.favourite-2 {
+  text-align: center;
+  color: white;
+}
+
+.features {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subscribe {
+  /* display:flex;
+/* flex-direction: column; */
+  /* flex-wrap: wrap;
+justify-content: space-between;  */
+}
+
+.subscription1 {
+  border: 1px solid orange;
+}
+.subscription2 {
+  border: 1px solid indigo;
+}
+
+.subscription3 {
+  border: 1px solid rgb(255, 98, 0);
+}
+
+.button {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10%;
+  background-color: rgb(255, 98, 0);
+  color: white;
+}
+
+.button2 {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10%;
+  background-color: indigo;
+  color: white;
+}
+.button3 {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10%;
+  color: orange;
+  border-color: orange;
+  background-color: black;
+}
+
+.accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-color: white !important;
+  --bs-accordion-active-color: white !important;
+  --bs-accordion-active-bg: transparent !important;
+  --bs-accordion-btn-color: white !important;
+  --bs-accordion-btn-icon: url(../images/landing/bs-Accordion-icon.svg) !important;
+  --bs-accordion-btn-active-icon: url(../images/landing/bs-Accordion-icon.svg) !important;
+}
+
+.accordion-body {
+  background-color: black;
+  color: white;
+}
+
+.accordion-button .collapsed {
+  background-color: transparent;
+}
+
+/* #accordionFlushExample{
+     background-color: black;
+        color: white;
+    } */
+
+.orange {
+  list-style-type: none;
+  padding: 0;
+}
+
+.O {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.O::before {
+  content: "\2713";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  color: black;
+  text-align: center;
+
+  line-height: 20px;
+  font-weight: bold;
+}
+.indigo {
+  list-style-type: none;
+  padding: 0;
+}
+
+.i {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.i::before {
+  content: "\2713";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: indigo;
+  color: black;
+  text-align: center;
+
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.dark-orange {
+  list-style-type: none;
+  padding: 0;
+}
+
+.d-o {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.d-o::before {
+  content: "\2713";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 98, 0);
+  color: black;
+  text-align: center;
+
+  line-height: 20px;
+  font-weight: bold;
+}
+.accordion-item {
+  background-color: black;
+  color: white;
+}
+
+/* .join-binge{
+        width: 209px;
+        height: 28px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+      } */
+
+.fav-movies-container {
+  position: relative;
+}
+
+.fav-movies-title {
+  position: absolute;
+  top: 15px;
+  left: 24px;
+}
+
+.fav-title-header1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37px;
+  /* text-align: center; */
+}
+
+.fav-title-header2 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37px;
+  /* text-align: center; */
+}

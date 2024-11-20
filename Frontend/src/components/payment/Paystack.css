@@ -1,0 +1,262 @@
+
+.illusion{
+    height: 100px;
+    width: 100%;
+}
+.payment-form {
+    align-items: center;
+    justify-content: center;
+    width: 568px;
+    height: 730px;
+    margin: 58px auto;
+    padding: 50px;
+    background-color: white ;
+    border-radius: 10px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form h3 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    }
+  
+    .paystack_logo{
+      width: 50px;
+      height: 32.69px;
+    }
+    .country{
+        width: 498px;
+        height: 92px;
+        padding: 10px;
+        gap: 10px;
+    }
+    .label{
+        width: 50px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: 'Heebo', sans-serif; 
+        color: #212121;
+        font-weight: bold;
+       }
+
+   .country-selector {
+        width: 478px;
+        height: 48px;
+        padding: 12px;
+        border: 1px solid #BDBDBD;
+        margin-bottom: 16px;
+        border-radius: 4px;
+      }
+
+.form-sec{
+    width: 467px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.featured_icon{
+  width: 48px;
+  height: 48px;
+  border-radius: 28px;
+  border: 8px solid #F4EBFF;
+  margin-bottom: 20px;
+}
+
+.add-payment{
+    width: 467px;
+    height: 56px;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.add-payment h4{
+    width: 467px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+.add-payment p{
+    width: 467px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+.input-container {
+    width: 467px;
+    height: 156px;
+    gap: 16px;
+  }
+
+.name-input{
+    width: 467px;
+    height: 70px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-label{
+    width: 339px;
+    height: 70px;
+}
+
+.labell{
+    width: 94px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+
+
+
+  .expiry{
+    width: 112px;
+    height: 70px;
+    gap: 6px;
+  }
+
+  .expiry-label{
+    width: 42px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+  }
+
+  .expiry-input{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 10px, 14px, 10px, 14px;
+    gap: 8px;
+    /* margin-left: 15px; */
+  }
+
+  .text-input{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 10px, 14px, 10px, 14px;
+    gap: 8px;
+  }
+  
+.card-container{
+    width: 467px;
+    height: 70px;
+    gap: 16px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .card_label{
+    width: 88px;
+    height: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #344054;
+
+  }
+
+  .card_name{
+    width: 339px;
+    height: 70px;
+    gap: 6px;
+    
+  }
+
+  .card-input{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+padding-left: 100px;
+padding-bottom: 11px;
+border: none;
+
+  }
+
+  .input-field {
+    width: 339px;
+    height: 44px;
+    padding: 10px, 14px, 10px, 14px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+  }
+
+  .input-number{
+    width: 339px;
+    height: 44px;
+    padding: 10px, 14px, 10px, 14px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+  }
+  .Payment_method_icon{
+    width: 34px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #F2F4F7;
+  }
+  .cvv-input {
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 10px, 14px, 10px, 14px;
+    gap: 8px;
+  }
+  
+  
+  .save-payment-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .save-payment-info input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+
+
+  .payment-button {
+    width: 376px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px, 33px, 12px, 33px;
+    gap: 16px;
+    background-color: #9B51E0;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+  }
+  

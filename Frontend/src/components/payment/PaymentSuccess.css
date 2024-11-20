@@ -1,0 +1,96 @@
+.static {
+  background-image: linear-gradient(
+      rgba(5, 14, 20, 0.614),
+      rgba(5, 14, 20, 0.614)
+    ),
+    url(../../assets/images/payment/BCG.svg);
+  background-size: cover;
+  /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.con {
+  align-items: center;
+  justify-content: center;
+  width: 544px;
+  height: 342px;
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.password-reset-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  text-align: center;
+  padding: 0 16px;
+}
+
+.success-title {
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #9b51e0;
+  font-family: "Inter", sans-serif;
+}
+
+.email-message {
+  font-size: 16px;
+  align-items: center;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  color: #828282;
+}
+
+.email-message strong {
+  font-weight: 600;
+}
+
+/* .login-button {
+    width: 482px;
+    height: 48px;
+    background-color: #9B51E0;
+    border: none;
+    border-radius: 5px;
+    /* padding: 16px 10px 16px 10px; */
+/* cursor: pointer;
+    gap: 16px; */
+/* color: #FFFFFF; */
+
+.arrowborder {
+  width: 80px;
+  height: 80px;
+}
+
+.to-login-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  width: 100%;
+  /* height: 16px; */
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #9b51e0 !important;
+}
+
+.login-button {
+  width: 482px;
+  height: 48px;
+  /* gap: 16px; */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  background-color: #9b51e0;
+}

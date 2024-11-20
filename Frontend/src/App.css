@@ -1,0 +1,19 @@
+.show-border {
+  border: 1px solid red;
+}
+
+.reactEasyCrop_CropArea {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.deleteUser-screen {
+  background-image: linear-gradient(
+      rgba(5, 14, 20, 0.614),
+      rgba(5, 14, 20, 0.614)
+    ),
+    url("./assets/images/landing/BCG.svg");
+  background-size: cover;
+  height: 100vh;
+}
+
+
